@@ -1,0 +1,8 @@
+section {
+  h2 {
+    text-align: center;
+    @include text(5rem);
+    font-weight: 600;
+    line-height: 7rem;
+  }
+}

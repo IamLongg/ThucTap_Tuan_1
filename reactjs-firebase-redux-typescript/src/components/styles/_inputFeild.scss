@@ -1,0 +1,9 @@
+.form {
+  padding: 4rem 0;
+  text-align: center;
+  @include text(1.4rem);
+  width: 50%;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  border-radius: 0.5rem;
+}

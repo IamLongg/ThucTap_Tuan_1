@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 6rem auto 0;
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $white;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    &-item {
+      padding: 1rem 3rem;
+      text-align: center;
+      h2 {
+        @include text(1.6rem);
+        color: #364152;
+      }
+      .editTodo {
+        padding: 0.5rem 1rem;
+        border: 0.1rem solid #364152;
+        border-radius: 0.5rem;
+        font-size: 1.4rem;
+      }
+    }
+    &-actions {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin: 0 2rem;
+      span {
+        color: #364152;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

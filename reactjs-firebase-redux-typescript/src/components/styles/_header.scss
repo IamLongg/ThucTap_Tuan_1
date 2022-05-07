@@ -1,0 +1,23 @@
+.navbar {
+  &-box {
+    padding-top: 5rem;
+    &-auth {
+      display: flex;
+      justify-content: right;
+      margin-bottom: 10rem;
+      align-items: center;
+      .function {
+        display: flex;
+        gap: 2rem 3rem;
+        align-items: center;
+        .title {
+          @include text(1.8rem);
+          text-transform: none;
+        }
+        .btn {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
